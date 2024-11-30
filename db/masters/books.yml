@@ -1,0 +1,7 @@
+# db/books.yml
+
+Alice Johnson:
+  - title: "Understanding Rails"
+    published_by: "Tech Press"
+  - title: "Rails Best Practices"
+    published_by: "Dev Media"

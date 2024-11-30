@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres #username you provided when installing postgresql. By default its postgres(if you did not provide any)
+  password: xxxx  #password you provided when installing postgresql
+
+development:
+  <<: *default
+  database: hello_rails_development  #name of your database
+
+test:
+  <<: *default
+  database: hello_rails_test    #name of your database
+
+production:
+  <<: *default
+  database: Hello_production
+  username: Hello
+  password: <%= ENV["FRIENDLIST_DATABASE_PASSWORD"] %>
