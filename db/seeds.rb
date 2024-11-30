@@ -12,8 +12,7 @@
 #   Author.create!(name: author['name'], age: author['age'])
 # end
 
-books_seed = YAML.load_file('db/masters/books.yml')
-books = books_seed['Alice Johnson']
+books = YAML.load_file('db/masters/books.yml')
 books.each do |book|
   Book.create!(title: book['title'], published_by: book['published_by'])
 end

@@ -1,7 +1,21 @@
 # db/books.yml
-
-Alice Johnson:
   - title: "Understanding Rails"
     published_by: "Tech Press"
+
   - title: "Rails Best Practices"
     published_by: "Dev Media"
+
+  - title: "Ruby on Rails Tutorial"
+    published_by: "Learning Books"
+
+  - title: "Agile Web Development with Rails"
+    published_by: "Pragmatic Bookshelf"
+
+  - title: "The Well-Grounded Rubyist"
+    published_by: "Manning Publications"
+
+  - title: "Metaprogramming Ruby"
+    published_by: "Pragmatic Bookshelf"
+
+  - title: "Eloquent Ruby"
+    published_by: "Addison-Wesley Professional"
